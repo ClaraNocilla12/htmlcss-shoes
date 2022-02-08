@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    
+    
+    
+    position: fixed;
+    top:0;
+    right: 0;
+   
+    
+    
+} 
+
+nav{
+    display:inline-block;
+    
+    margin:10px 30px;
+    
+}
+
+
+nav ul li{
+    
+    list-style-type: none;
+    
+      line-height: 80px;
+    vertical-align: middle;  
+    display: inline-block; 
+    
+    
+}
+
+nav ul li a{
+    
+    background-color: white;
+    text-decoration: none;
+    margin:20px;
+    padding:10px 15px;
+    border-radius: 48%;
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    box-shadow:  0 5px rgba(0, 0, 0, 0.349);
+}
+
+.full{
+    height: 100vh ;
+}
+
+.red{
+    
+    background-color: rgb(161, 4, 4);
+}
+
+.green{
+    
+    background-color: rgb(30, 155, 30);
+}
+
+.yellow{
+    
+    background-color: rgb(218, 218, 42);
+}
