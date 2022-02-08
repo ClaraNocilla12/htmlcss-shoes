@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .clearfix::after{
     content:"";
     display: table;
@@ -56,6 +60,7 @@ nav ul li a{
 
 nav ul li a:hover{
     box-shadow:  0 5px rgba(0, 0, 0, 0.349);
+    background-color: rgb(219, 219, 219);
 }
 
 .full{
@@ -67,27 +72,31 @@ nav ul li a:hover{
 
 
 .red{
-    background-color: rgb(161, 4, 4);
+    background-color: rgb(204, 40, 40);
 }
 
 .green{
     
-    background-color: rgb(30, 155, 30);
+    background-color: rgb(51, 189, 51);
 }
 
 .yellow{
     
-    background-color: rgb(218, 218, 42);
+    background-color: rgb(240, 240, 65);
 }
 
 
     
 h2{
     font-size: 4rem;
-    color:chartreuse;
+    color:rgb(217, 255, 0);
     text-transform: uppercase;
     text-align: center;
     
+}
+
+.yellow .product h2{
+    color: rgb(0, 255, 0);
 }
 
 .product{
