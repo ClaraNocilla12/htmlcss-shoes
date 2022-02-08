@@ -15,39 +15,27 @@ html{
 }
 
 
+
 header{
-    
-    
     z-index: 2;
     position: fixed;
     top:0;
-    right: 0;
-   
-    
-    
+    right: 0; 
 } 
 
 nav{
     display:inline-block;
-    
-    margin:10px 30px;
-    
+    margin:10px 30px; 
 }
 
-
 nav ul li{
-    
     list-style-type: none;
-    
       line-height: 80px;
     vertical-align: middle;  
-    display: inline-block; 
-    
-    
+    display: inline-block;  
 }
 
 nav ul li a{
-    
     background-color: white;
     text-decoration: none;
     margin:20px;
@@ -63,13 +51,12 @@ nav ul li a:hover{
     background-color: rgb(219, 219, 219);
 }
 
+
+
 .full{
     height: 100vh ;
-    position:relative;
-    
+    position:relative;  
 }
-
-
 
 .red{
     background-color: rgb(204, 40, 40);
@@ -84,27 +71,22 @@ nav ul li a:hover{
     
     background-color: rgb(240, 240, 65);
 }
+  
+.product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
-
-    
 h2{
     font-size: 4rem;
     color:rgb(217, 255, 0);
     text-transform: uppercase;
     text-align: center;
-    
+    font-family: 'Roboto Slab', serif;  
 }
 
 .yellow .product h2{
     color: rgb(0, 255, 0);
 }
-
-.product{
-    position: absolute;
-            top: 50%;
-            left: 50%;
-            
-            transform: translate(-50%,-50%);
-}
-
-
