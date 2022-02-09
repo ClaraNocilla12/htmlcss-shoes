@@ -8,11 +8,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.clearfix::after{
-    content:"";
-    display: table;
-    clear:both;
-}
 
 
 
@@ -24,31 +19,33 @@ header{
 } 
 
 nav{
-    display:inline-block;
+    
     margin:10px 30px; 
 }
 
 nav ul li{
-    list-style-type: none;
-      line-height: 80px;
-    vertical-align: middle;  
     display: inline-block;  
+    list-style-type: none;
+     
+    line-height: 80px;  
+    vertical-align: middle;  
+    
 }
 
 nav ul li a{
-    background-color: white;
+    background-color: rgb(219, 219, 219);
     text-decoration: none;
     margin:20px;
-    padding:10px 15px;
-    border-radius: 48%;
-    font-size: 1.1em;
+    padding:10px 15px; 
+    
+     border-radius: 50%;
     color: black;
     font-weight: bold;
 }
 
 nav ul li a:hover{
-    box-shadow:  0 5px rgba(0, 0, 0, 0.349);
-    background-color: rgb(219, 219, 219);
+    box-shadow:  5px 8px 10px rgba(0, 0, 0, 0.589);
+    background-color: white;
 }
 
 
@@ -77,14 +74,20 @@ nav ul li a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    
+    width: 50%;
 }
 
+ .product img{
+    width: 100%;
+} 
+
 h2{
-    font-size: 4rem;
+    font-size: 3rem;
     color:rgb(217, 255, 0);
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Roboto Slab', serif;  
+    font-family: 'Rubik Mono One', sans-serif; 
 }
 
 .yellow .product h2{
